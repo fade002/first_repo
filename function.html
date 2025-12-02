@@ -1,0 +1,47 @@
+<script>
+function calculator(){
+do{
+let a = parseFloat(prompt("enter your number"))
+let b = parseFloat(prompt("enter your number"))
+let c = prompt("ente your symbol(eg:+,-,*,/)") 
+let s;
+if(!isNaN(a)&&!isNaN(b)&&c){
+switch(c){
+	  case"+":
+ 	  alert(a+b);
+	  s=a+b
+	  break;
+	  case"-":
+ 	  alert(a-b);
+	  s=a-b
+	  break;
+	  case"*":
+ 	  alert(a*b);
+	  s=a*b
+	  break;
+	  case"/":
+	  if(b===0){
+	  alert
+ 	  alert(a/b);
+	  s=a/b
+	  break;
+	  }
+}else{
+	alert("Invalid number.Enter valid number")
+}
+document.write(s + "<br>")
+}while(confirm("Do you enter another number")
+}
+}
+
+
+      
+	  	
+
+
+
+
+
+
+
+</script>
